@@ -28,7 +28,7 @@ Submission Guidelines:
 
 
 ### Project Setup
-Open terminal and commands.
+Open the terminal and run the following commands:
 ```text
 git clone https://github.com/net-chanchal/ostad_module7_assignment.git
 cd ostad_module7_assignment
@@ -36,11 +36,13 @@ composer update
 ```
 
 ### Run the Development Server
+To start the Laravel development server, execute the following command:
 ```text
 php artisan serve
 ```
 
 ### Test the Route
+Visit the following URL in your web browser to test the route:
 ```text
-http://127.0.0.1:8000/test
+http://127.0.0.1:8000/hello
 ```
