@@ -20,13 +20,27 @@ __Criteria:__
 __Hint:__  
 Refer to the Laravel documentation and online tutorials for guidance on creating a new Laravel application and using artisan commands.
 
-
-
-
-
-
 Submission Guidelines:
 1. Must Submit Github link
 2. Must Create a Fresh New Repository and this repository should have only laravels folders and files.
 3. Don't push a folder where your project is created. So that we don't need to go inside that folder.
 4. Demo: https://drive.google.com/file/d/19B1kkA5oGWe6aUIjI1lAdZsEyoJZfX6U/view?usp=sharing
+
+
+### Project Setup
+Open terminal and commands.
+```text
+git clone https://github.com/net-chanchal/ostad_module7_assignment.git
+cd ostad_module7_assignment
+composer update
+```
+
+### Run the Development Server
+```text
+php artisan serve
+```
+
+### Test the Route
+```text
+http://127.0.0.1:8000/test
+```
